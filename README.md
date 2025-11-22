@@ -35,6 +35,6 @@ This project integrates Java (Spring Boot), PostgreSQL, MongoDb, and a data scie
 
 ### 1. Clone the repository 
 '''bash 
-git clone https://github.com/Kaua19/smart-recommedation-system.git 
+git clone https://github.com/Kaua19/smart_recommedation-system
 cd smart-recommedation-system 
 
