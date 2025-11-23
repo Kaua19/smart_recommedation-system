@@ -1,5 +1,5 @@
-Smart Recommendation System
-<p align="center"> <img src="https://img.shields.io/badge/Status-In_Development-yellow" /> <img src="https://img.shields.io/badge/License-MIT-green" /> <img src="https://img.shields.io/badge/Java-21-orange" /> <img src="https://img.shields.io/badge/Spring_Boot-3.x-brightgreen" /> <img src="https://img.shields.io/badge/Build-Maven-blue" /> <img src="https://img.shields.io/badge/PostgreSQL-15-blue" /> <img src="https://img.shields.io/badge/MongoDB-Atlas-green" /> <img src="https://img.shields.io/badge/Container-Docker-blue" /> <img src="https://img.shields.io/badge/Auth-JWT-red" /> </p>
+## Smart Recommendation System
+<p align="center"> <img src="https://img.shields.io/badge/Status-In_Development-yellow" /> <img src="https://img.shields.io/badge/License-MIT-green" /> <img src="https://img.shields.io/badge/Java-17-orange" /> <img src="https://img.shields.io/badge/Spring_Boot-3.x-brightgreen" /> <img src="https://img.shields.io/badge/Build-Maven-blue" /> <img src="https://img.shields.io/badge/PostgreSQL-15-blue" /> <img src="https://img.shields.io/badge/MongoDB-Atlas-green" /> <img src="https://img.shields.io/badge/Container-Docker-blue" /> <img src="https://img.shields.io/badge/Auth-JWT-red" /> </p>
 
 A data-driven platform for product recommendation, analytics, and user behavior insights.
 This project integrates Java (Spring Boot), PostgreSQL, MongoDB, and a data science workflow to generate personalized recommendations and provide an analytical dashboard.
