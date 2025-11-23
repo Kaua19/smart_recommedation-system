@@ -19,3 +19,47 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+# 📌 **/backend/README.md**
+
+```markdown
+# Backend – Smart Recommendation System
+
+This folder contains the backend REST API implemented with **Java 17** and **Spring Boot**.
+
+## Modules
+- Authentication (JWT)
+- Users
+- Products
+- Recommendation Engine
+- Analytics
+
+## Run project
+```bash
+./mvnw spring-boot:run
+
+
+---
+
+# 📌 **/data-processing/README.md**
+
+```markdown
+# Data Processing
+
+ETL scripts and notebooks used for:
+
+- Data cleaning  
+- Product metadata extraction  
+- Model training  
+- Analytics preprocessing  
+
+Recommended toolset:
+- Python 3.10  
+- Pandas  
+- Scikit-learn  
+- Jupyter Notebook  
+
+
