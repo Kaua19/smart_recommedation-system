@@ -1,3 +1,4 @@
+HEAD
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,38 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+
+/target
+/.idea
+/.vscode
+*.log
+*.jar
+*.class
+.env
+
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+f83ea98cae63c24ca6dbd829411f7917e5bd270d

@@ -1,0 +1,75 @@
+3. Responsibilities of Each Component
+3.1 Java (Spring Boot) — Orchestration Layer
+
+Java is responsible for the structural and operational backbone of the system.
+Its main responsibilities include:
+
+Exposing REST APIs to the client
+
+Validating and processing incoming requests
+
+Communicating with the Python ML Engine
+
+Managing database interactions via JPA/Hibernate
+
+Running background schedulers (e.g., data refresh jobs)
+
+Applying business rules and system workflows
+
+Spring Boot brings reliability, modularity, and enterprise-level organization.
+
+3.2 Python ML Engine — Intelligence Layer
+
+Python handles all machine learning logic due to its flexibility and rich ecosystem.
+Its responsibilities include:
+
+Data preprocessing and feature engineering
+
+Executing recommendation algorithms
+
+Loading/saving trained models
+
+Responding to Java via a REST or subprocess interface
+
+Updating ML outputs back into PostgreSQL
+
+Logging model performance
+
+Python acts as the “brain” of the system.
+
+3.3 PostgreSQL — Persistence Layer
+
+PostgreSQL stores all structured data used by the system.
+Its responsibilities include:
+
+User behavior data
+
+Product catalog
+
+Recommendation history
+
+Model metadata
+
+System logs
+
+Integration tables for Java ↔ Python communication
+
+PostgreSQL provides consistency, transactions, indexing, and relational organization.
+
+3.4 Communication Layer (Java ↔ Python)
+
+The two languages communicate through:
+
+REST API (FastAPI or Flask) – recommended
+
+or
+
+Subprocess call (Java runs Python scripts directly)
+
+Responsibilities:
+
+Ensure secure communication
+
+Transfer data (JSON)
+
+Keep both services independent and modular
